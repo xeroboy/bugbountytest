@@ -23,6 +23,11 @@
             width: 100%;
             text-align: center;
         }
+        .login-container img {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
         .login-container h1 {
             margin-bottom: 20px;
             font-size: 1.5rem;
@@ -55,12 +60,20 @@
 </head>
 <body>
     <div class="login-container">
+        <!-- Airmeet Logo -->
+        <img src="https://cdn-cpdoj.nitrocdn.com/bdPRQtAGdEdDThAkFvaCqXUlcEqEsAJN/assets/images/optimized/rev-db83d05/www.airmeet.com/hub/wp-content/uploads/2022/10/AM_Logo_Dark_WM.svg" alt="Airmeet Logo">
+        
+        <!-- Page Header -->
         <h1>Airmeet Login (Fake Page for Test)</h1>
+        
+        <!-- Login Form -->
         <form action="#" method="POST">
             <input type="text" name="email" placeholder="Email Address" required><br>
             <input type="password" name="password" placeholder="Password" required><br>
             <button type="submit">Login</button>
         </form>
+        
+        <!-- Disclaimer -->
         <p class="disclaimer">
             This is a fake login page for demonstration purposes only. Do not use for malicious purposes.
         </p>
